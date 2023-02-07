@@ -1,4 +1,4 @@
-import './App.css';
+// import './App.css';
 // import { useEffect, useState } from "react"
 
 import {
@@ -15,10 +15,10 @@ const router = createBrowserRouter([
         path: "/",
         element: <HomeIndex />
     }, 
-    // {
-        // path: "/about",
-        // element: <AboutPage />
-    // }
+    {
+        path: "/about",
+        element: <AboutPage />
+    }
 ])
 
 export default function App() {
